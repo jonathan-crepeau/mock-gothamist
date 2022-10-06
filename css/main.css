@@ -1,1 +1,56 @@
-body { background: peru; }
+:root {
+    --text-color: #000;
+    --font-family: 'Barlow Condensed', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: peachpuff;
+    height: 100vh;
+}
+
+.gothamist-header {
+    border: 3px red solid;
+    height: 68px;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.gothamist-header-right {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+.align-items-center {
+    align-items: center!important;
+}
+
+.justify-content-center {
+    justify-content: center;
+}

@@ -4,11 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/c477ae8532.js" crossorigin="anonymous"></script>
+    <!-- JavaScript -->
     <script defer src="js/app.js"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- CSS -->
     <link rel="stylesheet" href="css/main.css">
     <title>Mock Gothamist</title>
 </head>
 <body>
-    
+    <header class="gothamist-header">
+        <div class="gothamist-header-tagline">A non-profit newsroom, powered by WNYC.</div>
+        <div class="gothamist-header-right flex row align-items-center">
+            <button class="donate-button">
+                <a href="https://twitter.com/home" target="blank">
+                    <span class="p-button-label">DONATE</span>
+                </a>
+            </button>
+            <div>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="photo-container">Photo Container</div>
+        <div id="articles-container">
+            <span class="strong-line"></span>
+            <article>Article1</article>
+            <span class="mid-line"></span>
+            <article>Article2</article>
+            <span class="mid-line"></span>
+            <article>Article3</article>
+            <span class="mid-line"></span>
+        </div>
+    </main>
 </body>
 </html>
